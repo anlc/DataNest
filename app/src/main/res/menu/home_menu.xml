@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/content_menu">
+        <item
+            android:id="@+id/home_cross_talk"
+            android:icon="@mipmap/icon_message"
+            android:title="段子"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/home_fiction"
+            android:icon="@mipmap/icon_article"
+            android:title="小说"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/home_music"
+            android:icon="@mipmap/icon_music"
+            android:title="音乐"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/home_video"
+            android:icon="@mipmap/icon_video"
+            android:title="视频"
+            app:showAsAction="ifRoom" />
+    </group>
+
+    <group android:id="@+id/system_menu">
+        <item
+            android:id="@+id/home_setting"
+            android:icon="@mipmap/icon_setting"
+            android:title="设置"
+            app:showAsAction="ifRoom" />
+    </group>
+
+</menu>
